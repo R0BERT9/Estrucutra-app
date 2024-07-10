@@ -16,5 +16,15 @@
   "dependencies": {
     "jquery": "^3.7.1",
     "tailwindcss": "^3.4.4"
+  },
+  "devDependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-browser": "^7.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "browser",
+      "android"
+    ]
   }
 }
